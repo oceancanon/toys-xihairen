@@ -1,0 +1,133 @@
+@import "_reset.css";
+/*  Color palette
+    -----------------------
+    color       HEX code  RGB code
+    -------------------------------------
+    red:      	#960001	  rgb(150,0,1)
+    yellow:     #e2e55f	  rgb(226,229,95)
+    green:      #96c25f	  rgb(150,194,95)
+    blue:       #5582c6	  rgb(85,130,198)
+    purple: 	  #79519f	  rgb(121,81,159) 
+
+    fonts
+    -----------------------
+    headings:   Cabin
+    body:       Roboto
+
+    font-sizes:
+    -----------------------
+    h1:   70px
+    h2:   36px
+    h3    24px
+    body: 17px (all other text)
+
+    breakpoints
+    -----------------------
+    desktop: 1200px
+    
+    max-width of the content is 1400px
+*/
+
+/* Add all of your styles here */
+
+body {
+  padding: 1px 1px 1px 1px;
+  width: 1200px;
+  height: 100%;
+  font-size: 17px;
+}
+
+body div {
+  margin: 1px 1px 1px 1px;
+}
+
+h1 {
+  color: #960001;
+  size: 70px;
+  font-family: Cabin;
+  background-color: #ccc;
+  width: 100px;
+  text-align: center;
+  position: relative;
+  left: 180px;
+  top: 20px;
+}
+
+h2 {
+  color: #960001;
+  size: 36px;
+}
+
+h3 {
+  color: #960001;
+  size: 24px;
+  font-family: Cabin;
+  background-color: #ccc;
+  width: 100px;
+  text-align: center;
+  position: relative;
+  left: 100px;
+  top: 20px;
+}
+
+p {
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-top: 1px;
+  border-style: solid;
+  border-color: green;
+  color: #ccc;
+}
+
+#div1 {
+  /* position: relative; */
+  background: #ccc;
+}
+
+#div2 {
+  position: relative;
+  left: 0px;
+  top: 150px;
+  height: 500px;
+  background-color: #5582c6;
+}
+
+#div3 {
+  position: relative;
+  left: 70px;
+  top: 150px;
+  height: 100%;
+}
+
+#div4 {
+  border-top: 1px;
+  border-style: solid;
+  border-color: green;
+  margin-top: 10px;
+}
+
+#img1 {
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+
+#img2 {
+  position: absolute;
+  left: 70px;
+  top: 80px;
+  z-index: 1;
+  display: block;
+  width: 20%;
+}
+
+.img-head {
+  width: 10%;
+  display: inline-block;
+}
+
+p.right {
+  margin-left: 10px;
+  display: inline-block;
+}
